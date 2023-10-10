@@ -1005,15 +1005,25 @@ section {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .main-title h2 {
-    font-size: 3rem;
+  .contact-content-con .left-contact h4 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .main-title h2 .right {
+  .contact-content-con .left-contact h4 {
+    position: relative;
+    left: 20px;
+  }
+
+  .main-title h2 {
+    font-size: 2rem;
+  }
+  /* .main-title h2 .right {
     position: relative;
     right: 3%;
-  };
+  }; */
   .main-title h2 span {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .main-title h2 .bg-text {
     font-size: 4rem;
