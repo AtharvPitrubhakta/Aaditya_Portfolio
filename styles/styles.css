@@ -276,6 +276,7 @@ section {
 
 .achieve1-title .Note {
   color: var(--color-secondary);
+  font-weight: 700;
 }
 
 .about-stats {
@@ -292,7 +293,12 @@ section {
 }
 .about-stats .progress-bars .progress-bar .prog-title {
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--color-secondary);
+  /* position: relative;
+  left: 0%; */
 }
 .about-stats .progress-bars .progress-bar .progress-con {
   display: flex;
@@ -547,6 +553,30 @@ section {
   padding-bottom: 1rem;
 }
 
+.school {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: var(--color-secondary);
+  font-size: larger;
+}
+
+.degree{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-secondary);
+  font-weight: 600  ;
+}
+
+.list ul li{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact-content-con {
   display: flex;
   padding-top: 3.5rem;
@@ -691,6 +721,7 @@ section {
 
 .main-title {
   text-align: center;
+
 }
 .main-title h2 {
   position: relative;
@@ -963,7 +994,7 @@ section {
   }
 
   .about-stats .progress-bars {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 2fr);
   }
 
   .about-container .right-about {
@@ -977,6 +1008,10 @@ section {
   .main-title h2 {
     font-size: 3rem;
   }
+  .main-title h2 .right {
+    position: relative;
+    right: 3%;
+  };
   .main-title h2 span {
     font-size: 3rem;
   }
